@@ -492,18 +492,18 @@ const config = {
           href: '/',
           src: '/logo/light.svg',
           srcDark: '/logo/dark.svg',
-          alt: 'Dyte Docs',
+          alt: 'Universo Blockchain',
           height: '40px',
           width: '101px',
         },
         items: [
           {
-            label: 'Guides',
+            label: 'Servicios',
             to: 'guides',
             className: 'guides-top-header',
           },
           {
-            label: 'SDKs',
+            label: 'Documentos',
             type: 'dropdown',
             className: 'dyte-dropdown',
             items: [
@@ -513,10 +513,6 @@ const config = {
                 className: 'dyte-dropdown',
               },
             ],
-          },
-          {
-            label: 'REST API',
-            to: '/api/',
           },
           {
             label: 'Recursos',
@@ -540,13 +536,13 @@ const config = {
             position: 'right',
           },
           {
-            label: 'Book a demo',
+            label: 'Contáctanos',
             href: 'https://dyte.io/schedule-demo',
             position: 'right',
             className: 'navbar-book-demo',
           },
           {
-            label: 'Sign Up',
+            label: 'Servicios',
             href: 'https://dev.dyte.io/register',
             position: 'right',
             className: 'dev-portal-signup dev-portal-link',
@@ -558,67 +554,63 @@ const config = {
           href: '/',
           src: '/logo/light.svg',
           srcDark: '/logo/dark.svg',
-          alt: 'Dyte Docs',
+          alt: 'Universo Blockchain',
           height: '36px',
         },
         links: [
           {
-            title: 'Product',
+            title: 'Servicios',
             items: [
               {
-                label: 'Demo',
+                label: 'Canal de Youtube',
                 href: 'https://app.dyte.io',
               },
               {
-                label: 'Developer Portal',
+                label: 'Cursos',
                 href: 'https://dev.dyte.io',
               },
               {
-                label: 'Pricing',
+                label: 'Comunidad',
                 href: 'https://dyte.io/#pricing',
               },
             ],
           },
           {
-            title: 'Company',
+            title: 'Universo Blockchain',
             items: [
               {
-                label: 'About Us',
+                label: 'Acerca de Nosotros',
                 href: 'https://dyte.io',
               },
               {
-                label: 'Join Us',
+                label: 'Comunidad',
                 href: 'https://dyte.freshteam.com/jobs',
               },
               {
-                label: 'Privacy Policy',
-                href: 'https://dyte.io/privacy-policy',
-              },
-              {
-                label: 'Contact Us',
+                label: 'Contáctanos',
                 href: 'https://dyte.io/contact',
               },
             ],
           },
           {
-            title: 'Resources',
+            title: 'Recursos',
             items: [
               {
-                label: 'Documentation',
+                label: 'Documentos',
                 href: '/',
               },
               {
-                label: 'Blog',
+                label: 'Canal de YouTube',
                 href: 'https://dyte.io/blog',
               },
               {
-                label: 'Community',
+                label: 'Herramientas',
                 href: 'https://community.dyte.io',
               },
             ],
           },
         ],
-        copyright: 'Copyright © Dyte since 2023. All rights reserved.',
+        copyright: 'Copyright © Universo Blockchain since 2023. All rights reserved.',
       },
       prism: {
         theme: code_themes.light,

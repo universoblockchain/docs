@@ -11,7 +11,7 @@ import clsx from 'clsx';
 
 const PRODUCTS = [
   {
-    title: 'Live Video',
+    title: 'Videos',
     link: '/guides/live-video/intro-video-conf',
     icon: VideoRegular,
     lightImage: '/static/landing-page/hero/video-graphic.png',
@@ -19,7 +19,7 @@ const PRODUCTS = [
     text: 'Enable live video communication within your application. Perfect for education, telemedicine, social networks and gaming',
   },
   {
-    title: 'Voice',
+    title: 'Tutoriales',
     link: '/guides/voice-conf/intro-voice-conf',
     icon: MicRegular,
     lightImage: '/static/landing-page/hero/voice-graphic.png',
@@ -27,7 +27,7 @@ const PRODUCTS = [
     text: 'Incorporate high-quality real-time audio into your application. Build voice calls, audio conferences, voice chats in games and more',
   },
   {
-    title: 'Interactive Live Streaming',
+    title: 'Cursos',
     link: '/guides/livestream/livestream-overview',
     icon: LiveRegular,
     lightImage: '/static/landing-page/hero/livestream-graphic.png',
@@ -35,7 +35,7 @@ const PRODUCTS = [
     text: 'Integrate highly scalable live video broadcasting capabilities into your app, ideal for apps that involve streaming webinars, sports or live events',
   },
   {
-    title: 'Chat',
+    title: 'Comunidad',
     beta: true,
     link: '/guides/realtime-chat/intro-chat',
     icon: ChatMultipleRegular,
@@ -96,10 +96,8 @@ export default function HeroSection() {
             Universo Blockchain
           </h2>
           <p className="max-w-xl text-center text-text-400">
-            At Dyte, we're building the future of real-time communication.
-            Integrate programmable, and easily customizable live video and voice
-            into your web, mobile, and desktop applications with just a few
-            lines of code.
+            En Universo Blockchain nos dedicamos a crear videos y tutoriales en español
+            sobre el mundo de la blockchain y los criptoactivos.
           </p>
         </div>
       </section>
