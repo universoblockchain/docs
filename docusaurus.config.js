@@ -519,7 +519,7 @@ const config = {
             to: '/api/',
           },
           {
-            label: 'Resources',
+            label: 'Recursos',
             type: 'dropdown',
             className: 'dyte-dropdown resources-dropdown',
             items: [
@@ -531,8 +531,8 @@ const config = {
             ],
           },
           {
-            label: 'Support',
-            to: 'https://dyte.io/contact',
+            label: 'Suscribete',
+            to: 'https://www.youtube.com/@Universo_Blockchain',
           },
 
           {
